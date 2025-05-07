@@ -60,8 +60,7 @@
       font-weight: bold;
     }
 
-    .welcome-wrapper {
-      position: relative;
+    .welcome-container {
       height: 100vh;
       display: flex;
       flex-direction: column;
@@ -75,16 +74,14 @@
       color: black;
       text-shadow: 4px 4px 10px white;
       margin: 0;
-      z-index: 2;
     }
 
     .welcome-image {
-      margin-top: 40px;
-      z-index: 1;
+      margin-top: 20px;
     }
 
     .welcome-image img {
-      max-width: 90%;
+      width: 300px;
       height: auto;
       border-radius: 10px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -118,7 +115,6 @@
       text-shadow: 1px 1px 4px black;
     }
 
-    /* Discord icon at bottom */
     .discord-footer {
       display: flex;
       justify-content: center;
@@ -152,7 +148,7 @@
   </div>
 
   <!-- Welcome section with image below -->
-  <div class="welcome-wrapper">
+  <div class="welcome-container">
     <div class="welcome">Welcome!</div>
     <div class="welcome-image">
       <img src="https://cdn.discordapp.com/attachments/1333214925253906445/1369720225016184952/IMG_4237.jpg?ex=681ce2dd&is=681b915d&hm=51e5e9d9981ee2d131ce52eb782bf7ef998b21c2bf49002bf871ca553b9b5acf&" alt="Welcome Image">
